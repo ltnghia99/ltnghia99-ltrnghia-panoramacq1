@@ -97,7 +97,7 @@
         renderer.setSize(window.innerWidth, window.innerHeight);
         document.body.appendChild(renderer.domElement);
 
-        const texture = new THREE.TextureLoader().load('Panorama.jpg');
+        const texture = new THREE.TextureLoader().load('panorama.jpg');
         const geometry = new THREE.SphereGeometry(1000, 60, 40);
         geometry.scale(-1, 1, 1);
         const material = new THREE.MeshBasicMaterial({ map: texture });
